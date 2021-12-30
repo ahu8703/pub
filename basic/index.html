@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Document</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/lib/jquery-ui.css">
+	<link rel="stylesheet" href="assets/css/lib/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/common.css">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="assets/js/lib/swiper.min.js"></script>
+	<script type="text/javascript" src="assets/js/common.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="skip">
+            <a href="#container"><span>컨텐츠 바로가기</span></a>
+        </div>
+
+		<!-- header -->
+		<div class="header">
+			header
+		</div>
+		<!-- //header -->
+
+		<!-- container -->
+		<div id="container" class="container">
+			<div class="contents">
+
+				<button type="button" class="pop-open" data-pop="7">pop</button>
+
+				<div class="img-box">
+					<picture>
+						<source srcset="https://placeimg.com/300/200/any" media="(min-width: 1120px)">
+						<source srcset="https://placeimg.com/200/100/any" media="(max-width: 1119px)">
+						<img src="https://placeimg.com/300/200/any" alt="">
+					</picture>
+				</div>
+
+				<div class="swiper-outer swiper-sample">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="https://placeimg.com/200/100/any" />
+							</div>
+							<div class="swiper-slide">
+								<img src="https://placeimg.com/200/100/any" />
+							</div>
+							<div class="swiper-slide">
+								<img src="https://placeimg.com/200/100/any" />
+							</div>
+							<div class="swiper-slide">
+								<img src="https://placeimg.com/200/100/any" />
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+			</div>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<div class="footer">
+			footer
+		</div>
+		<!-- //footer -->
+    </div>
+
+	<div class="layer-pop" data-pop="7">
+		<div class="pop-outer">
+			<div class="pop-wrap">
+				<div class="pop-header">
+					<h1 class="tit">title</h1>
+				</div>
+				<div class="pop-cont">
+					content
+				</div>
+				<div class="pop-footer">
+					<button type="button">button</button>
+				</div>
+				<button type="button" class="btn-close">close</button>
+			</div>
+		</div>
+	</div>
+
+	<script></script>
+</body>
+</html>
